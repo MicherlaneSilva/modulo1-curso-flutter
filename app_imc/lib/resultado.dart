@@ -78,7 +78,7 @@ class ResultadoState extends State<Resultado> {
               child: Column(
                 children: [
                   Texto("Resultado"),
-                  Texto(widget.resultado),
+                  Texto(widget.resultado.toUpperCase()),
                 ],
               ),
             ),
