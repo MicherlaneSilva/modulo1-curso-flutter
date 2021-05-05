@@ -42,16 +42,8 @@ class ResultadoState extends State<Resultado> {
       width: double.infinity,
       margin: const EdgeInsets.all(10.0),
       padding: const EdgeInsets.all(20.0),
-      child: Column(
+      child: ListView(
         children: [
-          Text(
-            "IMC",
-            style: TextStyle(
-                fontSize: 45.0,
-                color: Colors.purple[800],
-                fontWeight: FontWeight.bold,
-                fontFamily: "Times New Roman"),
-          ),
           Container(
             width: 400.0,
             height: 300.0,
